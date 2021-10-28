@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<!-- The dice faces have been used from the following source 
+    http://clipart-library.com/search2/?q=dice%20face#gsc.tab=1&gsc.q=dice%20face&gsc.page=2 -->
+
+    <!-- This work has been submitted by:
+            Name: Shubham Singh
+            Student Number: 201538011
+            Module: COMP 519 -->
+
+    <html lang="en-GB">
+    <head>
+        <meta charset="UTF-8">
+        <title>Dice Roll Game</title>
+        <link rel="stylesheet" href="gameStyle.css" />
+    </head>
+    
+    <body>
+        <div id="mainDiv" class="wrapper">
+            
+            <h1>WELCOME to the game of dice!</h1>
+            
+            <div id="selctor">
+                <p id="message">Please select a number of dice between 3 to 6!</p>
+                <input id="inputField" placeholder="Enter number here">
+                <button id="submitBttn" onclick="validateUserInput()">Submit</button>
+                <button id ="clearBttn" onclick="document.getElementById('inputField').value = ''">Clear input</button>
+                <p id="numDice"></p>
+            </div>
+        </div>
+    
+    </body>
+    <script src="game.js"></script>
+</html>

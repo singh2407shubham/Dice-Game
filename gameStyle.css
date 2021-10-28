@@ -1,0 +1,81 @@
+
+.wrapper {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-style: ridge;
+    background-color:cornsilk;
+}
+
+h1 {
+    margin: 30px;
+    font-size: large;
+    font-weight: 500;
+    color: crimson;
+}
+
+.dice {
+    margin: 10px 10px;
+    text-align: center;
+    display: inline-block;
+    border-style: inset;
+    background-color: lightgray;
+}
+
+p {
+    margin: 10px 20px;
+}
+
+button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#message {
+    font-size: x-small;
+    margin: 0px;
+}
+
+/* #inputBttn {
+    width: 25%;
+} */
+
+#diceDisplayArea {
+    margin-top: 10px;
+}
+
+#numDice {
+    font-size: small;
+}
+
+#diceLabel {
+    
+    font-size: medium;
+
+}
+
+#controller {
+    margin: 20px;
+}
+#statistics {
+    font-size: small;
+    border-style: groove;
+}
+
+img {
+    width: 70px;
+}
+
+#counter {
+    color: darkgreen;
+}
+
+#roundScore {
+    color:darkblue ;
+
+}
+
+#balance {
+    color: brown;
+}
